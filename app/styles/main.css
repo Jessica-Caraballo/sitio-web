@@ -1,0 +1,87 @@
+/*Aplicable a toda la pagina*/
+* {
+    margin:0px;
+    padding:0px;
+}
+/*Aplicable al cuerpo*/
+body{
+    font-family:Segoe,sans-serif;
+    font-size:16px;
+}
+/*Aplicable a la etiqueta que guardara la imagen del banner*/
+figure{
+    display:inline-block;
+    margin:1% 1% 0% -4%;
+    text-align:left;        
+}
+/*Aplicable al texto de la imagen del banner*/
+figcaption{
+    font-family: Constantia,serif;
+    margin-left: 40px;
+    text-align: left;
+}
+/*Aplicable al banner*/
+h1{
+    color:#0000FF;
+    display:inline-block;
+    font-size:72px;
+    margin:0.25em auto;
+    text-align:center;
+    text-shadow:15px 15px 20px rgba(255,255,255,0.9);
+    width:75%;  
+}
+
+/*Aplicable a las etiquetas html5 header, nav y footer*/
+header,nav,footer{
+    background:#84C2E1;
+    border-radius:0.5em;
+    margin:0.5em;
+    padding:0.25em;
+    text-align:center;
+}
+/*Aplicable a la id contenedor dentro de la etiqueta html5 section*/
+/*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
+section#contenedor{
+    background:#B3E6FF;
+    margin:0.5em auto;
+    padding:0px;
+    text-align:center;
+}
+/*Aplicable a la id principal dentro de la etiqueta html5 section y aside*/
+/*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
+section#principal, aside{
+    background:#FFFFFF; 
+    border-radius:0.5em;
+    display:inline-block;
+    margin:5px;
+    min-height:100px;
+    padding:0.25em;
+    text-align:center;
+    vertical-align:top;
+    width:65%;
+}
+/*Aplicable a la etiqueta H2*/
+h2{
+    color:#0000FF;
+}
+/*Aplicable a la etiqueta H3*/
+h3{
+    color:#B3E6FF;
+    text-decoration:underline;
+}
+/*Aplicable a la etiqueta parrafo*/
+p{
+    text-indent:5px;
+}
+/*Aplicable a la etiqueta article de html5*/
+article{
+    text-align:left;
+}
+/*Aplicable a la etiqueta aside de html5*/
+aside{
+    width:30%;  
+}
+/*Aplicable a la etiqueta footer de html5*/
+footer{
+    font-size:1.05em;
+}
