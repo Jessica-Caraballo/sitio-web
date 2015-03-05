@@ -17,9 +17,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 	<title>Anian Reformas</title> 
     <!--Estilos-->
+    
+
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" type="text/css" media="all" href="styles/main.css">
     <link rel="stylesheet" type="text/css" media="all" href="styles/menu.css">
-     <link rel="stylesheet" type="text/css" media="all" href="styles/contacto.css">
+    <link rel="stylesheet" type="text/css" media="all" href="styles/contacto.css">
+    <!-- endbuild -->
+
+
     <link rel="shortcut icon" href="favicon.ico">  
     <!--Scripts-->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -60,7 +72,7 @@
 <!--Secciones de la pagina-->
 <section id="contenedor">
     <aside>
-        <p>Rellenando el siguiente formulario,podremos crearle un presupuesto a medida y sin compromiso de la reforma que le gustaría realizar. Si usted lo requiere, iremos a su casa para medirla gratuitamente, y de este modo, poder ajustar el presupuesto y la  reforma a su gusto.</p>
+        <p>Rellenando el siguiente formulario,podremos crearle un presupuesto a medida y sin compromiso de la reforma que le gustaría realizar.</p>
     </aside>
 
     <!--Seccion principal-->        
@@ -69,7 +81,7 @@
             <h2>Presupuesto gratuito:</h2>
         </hgroup>
         <article>        
-        <form id="formulario" novalidate action="" method="post">         
+        <form id="formulario" novalidate action="" method="post">       
             <fieldset>
                 <legend><strong>Información de Contacto:</strong></legend>
                 <div id="contacto">        
@@ -77,35 +89,37 @@
                         <label for="nombre">
                             <span>Nombre:</span>    
                             <span class="important">*</span>
-                            <input class="text" type="text" id="nombre" name="nombre" placeholder="Jessica"/>
                         </label>
+                            <input class="text" type="text" id="nombre" name="nombre" placeholder="Jessica"/>
                     </div>
-                    
+
                     <div>                    
                         <label for="telefono">
                             <span>Teléfono:</span>
                             <span class="important">*</span>
+                        </label>
                             <input class="text" type="text" name="telefono" maxlength="9" value="" id="telefono" placeholder="#########"/>
-                        </label> 
                     </div>  
 
                     <div>
                         <label for="email">
                             <span>Email:</span> 
                             <span class="important">*</span>
-                            <input class="text" type="email" id="email" name="email" placeholder="mi_email@algo.com"  />
                         </label>
+                            <input class="text" type="email" id="email" name="email" placeholder="mi_email@algo.com"  />
                     </div>
                     
                     <div>
-                        <label for="conocer">¿Cómo nos ha conocido?</label>
+                        <label for="conocer">
+                            <span>¿Cómo nos ha conocido?</span>
+                        </label>
                         <select name="conocer" id="conocer" data-placeholder="Seleccione una opcion" size="0">
                             <option value="" disabled selected="selected"></option>
-                            <option value="1">Prefiero no contestar</option>
-                            <option value="2">Publicidad</option>
-                            <option value="3">Profesionales del sector</option>
-                            <option value="4">Internet</option>
-                            <option value="5">A través de un amigo o conocido</option>
+                            <option value="1">A través de un amigo o conocido</option>
+                            <option value="2">Prefiero no contestar</option>
+                            <option value="3">Publicidad</option>
+                            <option value="4">Internet</option>                           
+                            <option value="3">Radio</option> 
                         </select>
                     </div>
                  </div>
@@ -115,32 +129,44 @@
                 <legend><strong>Datos de la reforma:</strong></legend>
                 <div id="datos_facturacion">        
                     <div>
-                        <label for="direccion">Dirección:
+                        <label for="direccion">
+                            <span>Dirección:</span>
                             <span class="important">*</span>
                         </label>
                             <input class="text" type="text" id="direccion" name="direccion" placeholder="C/ Jarque Moncayo"/>
-                    </div>
-                    <div>
-                        <div id="left">
-                            <input type="checkbox" name="animal" value="piso_compelto" />Piso completo<br/>
+                    </div>                    
+                    
+                    <div id="reforma">  
+                        <span>¿Qué reforma desea? <span class="important"> *</span></span><br/>
 
-                            <input type="checkbox" name="animal" value="bano" />Baño‎<br/>
-                            <input type="checkbox" name="animal" value="cocina" />Cocina<br/>
+                                                               
+                        <div id="left">
+                            <input type="checkbox" name="reforma" value="piso_compelto" />Piso completo<br/>
+                            <input type="checkbox" name="reforma" value="bano" />Baño‎<br/>
+                            <input type="checkbox" name="reforma" value="cocina" />Cocina<br/>
+                            <input type="checkbox" name="reforma" value="armarios" />Armarios<br/>
                         </div>
                         <div id="right">
-                            <input type="checkbox" name="animal" value="dormitorio" />Dormitorio<br/>
-                            <input type="checkbox" name="animal" value="puertas-suelos" />Puertas y suelos<br/>
-                            <input type="checkbox" name="animal" value="Bird" />Birds<br/>
+                            <input type="checkbox" name="reforma" value="dormitorio" />Dormirotio<br/>
+                            <input type="checkbox" name="reforma" value="puertas" />Puertas<br/>
+                            <input type="checkbox" name="reforma" value="suelos" />Suelos<br/>
+                            <input type="checkbox" name="reforma" value="otros" />Otros<br/>
                         </div>
                     </div>
-                    <div id="comentarios">
-                        <span>Describanos brevemente su reforma:</span>  
-                        <textarea name="message" spellcheck="true" rows="10" cols="50" tabindex="4">
+
+                    <div id="comentario">
+                        <label for="comentario">
+                            <span>Describa su reforma:</span>
+                            <span class="important">*</span>
+                        </label>                          
+                        <textarea name="comentario" spellcheck="true" rows="5" cols="50" tabindex="4">
                         </textarea>
-                </div>
-
-
-                 </div>
+                        
+                    </div>
+                        
+                    
+                    
+                 
              </fieldset>
              <div id="pie">
                 
@@ -160,6 +186,15 @@
     ​Copyright 2012 @ ANIAN REFORMAS (Reformas Zaragoza)    -    Created by Esy
 </footer>
 
+<!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../test/bower_components/jquery/dist/jquery.js"></script>
+    <script src="../test/bower_components/jquery-validate/dist/jquery.validate.js"></script>
+    <!-- endbower -->
+ <!-- endbuild -->
 
- 
+
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 </html> 
