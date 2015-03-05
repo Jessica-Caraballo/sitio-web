@@ -1,13 +1,17 @@
+/*Paleta de colores con paletton -> Palette UID: 53K0j0kTW++5u++jl+Y++dL+T02*/
+
 /*Aplicable a toda la pagina*/
-* {
+html {
     margin:0px;
     padding:0px;
+    background: black;
+    
 }
 /*Aplicable al cuerpo*/
-body{
+/*body{
     font-family:Segoe,sans-serif;
     font-size:16px;
-}
+}*/
 /*Aplicable a la etiqueta que guardara la imagen del banner*/
 figure{
     display:inline-block;
@@ -15,42 +19,59 @@ figure{
     text-align:left;        
 }
 /*Aplicable al texto de la imagen del banner*/
-figcaption{
+/*figcaption{
     font-family: Constantia,serif;
     margin-left: 40px;
     text-align: left;
-}
+}*/
 /*Aplicable al banner*/
 h1{
-    color:#0000FF;
+    background: #000000;
+    color:#03ADFF;
     display:inline-block;
     font-size:72px;
     margin:0.25em auto;
     text-align:center;
-    text-shadow:15px 15px 20px rgba(255,255,255,0.9);
-    width:75%;  
+    text-shadow:15px 15px 20px #0656FF;
+    width:75%;    
 }
 
 /*Aplicable a las etiquetas html5 header, nav y footer*/
-header,nav,footer{
-    background:#84C2E1;
+header, nav,footer, #contenedor{    
     border-radius:0.5em;
     margin:0.5em;
     padding:0.25em;
     text-align:center;
 }
+header{
+    background:#000000;
+    font-family: 'Dancing Script', cursive;
+}
+footer{
+    background:#D5F1FF;
+    font-family: "Dancing Script", cursive;
+
+}
+nav {
+    background: #D5F1FF;
+    border-radius:0.5em;
+    margin:0.5em;
+    padding:0.25em;
+    text-align:center;
+    font-family: 'Pacifico', cursive;
+}
 /*Aplicable a la id contenedor dentro de la etiqueta html5 section*/
 /*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
-section#contenedor{
-    background:#B3E6FF;
-    margin:0.5em auto;
-    padding:0px;
+#contenedor{
+    background:#75A1FF;
     text-align:center;
+    font-family: "Vollkorn", cursive;
+    font-size: 25px;
 }
 /*Aplicable a la id principal dentro de la etiqueta html5 section y aside*/
 /*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
-section#principal, aside{
-    background:#FFFFFF; 
+#principal, aside{
+    background:#75A1FF; 
     border-radius:0.5em;
     display:inline-block;
     margin:5px;
@@ -62,11 +83,11 @@ section#principal, aside{
 }
 /*Aplicable a la etiqueta H2*/
 h2{
-    color:#0000FF;
+    color:#002B70;
 }
 /*Aplicable a la etiqueta H3*/
 h3{
-    color:#B3E6FF;
+    color:#002B70;
     text-decoration:underline;
 }
 /*Aplicable a la etiqueta parrafo*/
