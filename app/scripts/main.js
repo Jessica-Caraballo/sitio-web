@@ -20,12 +20,12 @@ var animate ;
 	   imgObj = document.getElementById('logo');
 	   imgObj.style.position= 'absolute'; 
 	   imgObj.style.top = '30px';
-	   imgObj.style.left = '-300px';
+	   imgObj.style.left = '-200px';
 	   imgObj.style.visibility='hidden';
 	   moveRight();
 	} 
 	function moveRight(){
-		if (parseInt(imgObj.style.left)<=150)
+		if (parseInt(imgObj.style.left)<=40)
 		{
 		   imgObj.style.left = parseInt(imgObj.style.left) + 5 + 'px';
 		   imgObj.style.visibility='visible';

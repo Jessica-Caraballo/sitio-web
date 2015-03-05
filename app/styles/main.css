@@ -18,6 +18,10 @@ figure{
     margin:1% 1% 0% -4%;
     text-align:left;        
 }
+img { 
+    height: auto;
+    max-width: 15%;
+}
 /*Aplicable al texto de la imagen del banner*/
 /*figcaption{
     font-family: Constantia,serif;
@@ -50,7 +54,6 @@ header{
 footer{
     background:#D5F1FF;
     font-family: "Dancing Script", cursive;
-
 }
 nav {
     background: #D5F1FF;
@@ -105,4 +108,10 @@ aside{
 /*Aplicable a la etiqueta footer de html5*/
 footer{
     font-size:1.05em;
+}
+
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+img { 
+    height: 0%;
+    max-width: 0%;
 }
