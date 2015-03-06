@@ -1,3 +1,10 @@
+<!--Paleta de colores:
+ Palette UID: 53K0j0kTW++5u++jl+Y++dL+T02
+ http://paletton.com/palette.php?uid=53K0j0kTW%2B%2B5u%2B%2Bjl%2BY%2B%2BdL%2BT02-->
+
+<!--Slider imagenes
+http://www.hongkiat.com/blog/free-responsive-image-gallery/-->
+
 # sitio-web
 Práctica realización sitio web mediante framework Bootstrap
 

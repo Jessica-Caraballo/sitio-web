@@ -27,16 +27,16 @@ textarea {
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
   background: #D5F1FF;
+  resize: none;
 }
   
-h2{ 
+/*h2{ 
   font-size: 40px;  
   text-shadow: 2px 2px #222;
   border-bottom: 2px solid #FFF;
   text-align: center;
   margin: 0 0 5px 0;
- /*padding-left: 150px;*/
- }
+ }*/
 
 }
 input{
@@ -102,9 +102,9 @@ div { padding: 2px; }
   border-left: 4px solid #1608FF; 
   border-bottom: 1px solid #1608FF;
   background-color : #D5F1FF;
-  padding: 10px 6px 6px 22px;
+  /*padding: 10px 6px 6px 22px;*/
   text-align: right;
-}*/
+}*
 /*#nifcif, #nombre, #pswd, #pswd2{
   width: 150px;
 }

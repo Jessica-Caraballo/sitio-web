@@ -1,5 +1,3 @@
-/*PALETA DE COLORES: Palette UID: 53K0j0kTW++5u++jl+Y++dL+T02*/
-
 /*Aplicable a toda la pagina*/
 html {
     margin:0px;
@@ -7,11 +5,7 @@ html {
     background: black;
     
 }
-/*Aplicable al cuerpo*/
-/*body{
-    font-family:Segoe,sans-serif;
-    font-size:16px;
-}*/
+
 /*Aplicable a la etiqueta que guardara la imagen del banner*/
 figure{
     display:inline-block;
@@ -22,6 +16,68 @@ figure img {
     height: auto;
     max-width: 15%;
 }
+
+/*Nube de palabras*/
+.s1{
+    font-size:40px;
+    text-decoration:none; 
+    color: #EFFBFB;
+    font-family: 'Dancing Script', bold;
+}
+.s2{
+    font-size:35px;
+    text-decoration:none; 
+    color: #7401DF;
+    font-family: 'Pacifico', cursive;
+}
+.s3{
+    font-size:32px;
+    text-decoration:none; 
+    color: #DE2159;
+    font-family: 'Dancing Script', cursive;
+}
+.s4{
+    font-size:28px;
+    text-decoration:none; 
+    color: #00FFFF;
+    font-family: 'Pacifico', cursive;
+}
+.s5{
+    font-size:26px;
+    text-decoration:none; 
+    color: #8A0808;
+    font-family: "Vollkorn", cursive;
+}
+.s6{
+    font-size:24px;
+    text-decoration:none; 
+    color: #A5DF00;
+    font-family: 'Pacifico', cursive;
+}
+.s7{
+    font-size:23px;
+    text-decoration:none; 
+    color: #1308A8;
+    font-family: "Vollkorn", cursive;
+}
+.s8{
+    font-size:22px;
+    text-decoration:none; 
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+}
+.s9{
+    font-size:21px;
+    text-decoration:none; 
+    color: #DE2159;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+
 /*Aplicable al texto de la imagen del banner*/
 /*figcaption{
     font-family: Constantia,serif;
@@ -29,7 +85,7 @@ figure img {
     text-align: left;
 }*/
 /*Aplicable al banner*/
-h1{
+header h1{
     background: #000000;
     color:#03ADFF;
     display:inline-block;
@@ -38,6 +94,16 @@ h1{
     text-align:center;
     text-shadow:15px 15px 20px #0656FF;
     width:75%;    
+}
+
+h2{
+    color:#03ADFF;
+    display:inline-block;
+    font-size:50px;
+    margin:0.25em auto;
+    text-align:center;
+    text-shadow:5px 5px 5px #1608FF;
+    width:75%;   
 }
 
 /*Aplicable a las etiquetas html5 header, nav y footer*/
@@ -85,15 +151,15 @@ nav {
     vertical-align:top;
     width:65%;
 }
-/*Aplicable a la etiqueta H2*/
-h2{
-    color:#002B70;
-}
 /*Aplicable a la etiqueta H3*/
 h3{
     color:#002B70;
-    text-decoration:underline;
 }
+/*Aplicable a la etiqueta H3*/
+/*h3{
+    color:#002B70;
+    text-decoration:underline;
+}*/
 /*Aplicable a la etiqueta parrafo*/
 p{
     text-indent:5px;
