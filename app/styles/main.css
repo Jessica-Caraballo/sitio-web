@@ -1,9 +1,16 @@
+@media screen and (max-width: 600px) {
+}
+@media screen and (min-width: 900px) {
+}
 /*Aplicable a toda la pagina*/
 html {
     margin:0px;
     padding:0px;
-    background: black;
-    
+    background: black;    
+}
+#anianreformas{
+    color:black;
+    font-family: 'Dancing Script', cursive;
 }
 
 /*Aplicable a la etiqueta que guardara la imagen del banner*/
@@ -17,75 +24,7 @@ figure img {
     max-width: 15%;
 }
 
-/*Nube de palabras*/
-.s1{
-    font-size:40px;
-    text-decoration:none; 
-    color: #EFFBFB;
-    font-family: 'Dancing Script', bold;
-}
-.s2{
-    font-size:35px;
-    text-decoration:none; 
-    color: #7401DF;
-    font-family: 'Pacifico', cursive;
-}
-.s3{
-    font-size:32px;
-    text-decoration:none; 
-    color: #DE2159;
-    font-family: 'Dancing Script', cursive;
-}
-.s4{
-    font-size:28px;
-    text-decoration:none; 
-    color: #00FFFF;
-    font-family: 'Pacifico', cursive;
-}
-.s5{
-    font-size:26px;
-    text-decoration:none; 
-    color: #8A0808;
-    font-family: "Vollkorn", cursive;
-}
-.s6{
-    font-size:24px;
-    text-decoration:none; 
-    color: #A5DF00;
-    font-family: 'Pacifico', cursive;
-}
-.s7{
-    font-size:23px;
-    text-decoration:none; 
-    color: #1308A8;
-    font-family: "Vollkorn", cursive;
-}
-.s8{
-    font-size:22px;
-    text-decoration:none; 
-    color: #000000;
-    font-family: 'Pacifico', cursive;
-}
-.s9{
-    font-size:21px;
-    text-decoration:none; 
-    color: #DE2159;
-    font-family: 'Dancing Script', cursive;
-}
-
-
-
-
-
-
-/*Aplicable al texto de la imagen del banner*/
-/*figcaption{
-    font-family: Constantia,serif;
-    margin-left: 40px;
-    text-align: left;
-}*/
-/*Aplicable al banner*/
-header h1{
+h1{
     background: #000000;
     color:#03ADFF;
     display:inline-block;
@@ -95,7 +34,6 @@ header h1{
     text-shadow:15px 15px 20px #0656FF;
     width:75%;    
 }
-
 h2{
     color:#03ADFF;
     display:inline-block;
@@ -105,8 +43,9 @@ h2{
     text-shadow:5px 5px 5px #1608FF;
     width:75%;   
 }
-
-/*Aplicable a las etiquetas html5 header, nav y footer*/
+h3{
+    color:#002B70;
+}
 header, nav,footer, #contenedor{    
     border-radius:0.5em;
     margin:0.5em;
@@ -121,6 +60,7 @@ footer{
     background:#D5F1FF;
     font-family: "Dancing Script", cursive;
     color:#000000;
+    font-size:1.05em;
 }
 nav {
     background: #D5F1FF;
@@ -130,16 +70,12 @@ nav {
     text-align:center;
     font-family: 'Pacifico', cursive;
 }
-/*Aplicable a la id contenedor dentro de la etiqueta html5 section*/
-/*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
 #contenedor{
     background:#75A1FF;
     text-align:center;
     font-family: "Vollkorn", cursive;
     font-size: 25px;
 }
-/*Aplicable a la id principal dentro de la etiqueta html5 section y aside*/
-/*NOTA: Segun el navegador a veces no coge directamente si modificamos section*/
 #principal, aside{
     background:#75A1FF; 
     border-radius:0.5em;
@@ -149,36 +85,51 @@ nav {
     padding:0.25em;
     text-align:center;
     vertical-align:top;
-    width:65%;
+    width:60%;
 }
-/*Aplicable a la etiqueta H3*/
-h3{
-    color:#002B70;
-}
-/*Aplicable a la etiqueta H3*/
-/*h3{
-    color:#002B70;
-    text-decoration:underline;
-}*/
-/*Aplicable a la etiqueta parrafo*/
 p{
     text-indent:5px;
 }
-/*Aplicable a la etiqueta article de html5*/
 article{
     text-align:left;
 }
-/*Aplicable a la etiqueta aside de html5*/
 aside{
     width:30%;  
 }
-/*Aplicable a la etiqueta footer de html5*/
-footer{
-    font-size:1.05em;
+/*Mapa de google*/
+.google-maps {
+position: relative;
+padding-bottom: 100%;
+height: 0;
+overflow: hidden;
 }
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+/*Nube de palabras*/
+.s1{font-size:40px;text-decoration:none;color: #EFFBFB;font-family: 'Dancing Script', cursive;}
+.s2{font-size:35px;text-decoration:none;color: #7401DF;font-family: 'Pacifico', cursive;}
+.s3{font-size:32px;text-decoration:none;color: #DE2159;font-family: 'Dancing Script', cursive;}
+.s4{font-size:28px;text-decoration:none;color: #00FFFF;font-family: 'Pacifico', cursive;}
+.s5{font-size:26px;text-decoration:none;color: #8A0808;font-family: "Vollkorn", cursive;}
+.s6{font-size:24px;text-decoration:none;color: #A5DF00;font-family: 'Pacifico', cursive;}
+.s7{font-size:23px;text-decoration:none;color: #1308A8;font-family: "Vollkorn", cursive;}
+.s8{font-size:22px;text-decoration:none;color: #000000;font-family: 'Pacifico', cursive;}
+.s9{font-size:21px;text-decoration:none;color: #DE2159;font-family: 'Dancing Script', cursive;}
 
 @media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 figure img { 
     height: 0%;
     max-width: 0%;
+}
+h2{
+    display: none;
+}
+}
+#inicial{
+    width:80%;
 }

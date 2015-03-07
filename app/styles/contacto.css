@@ -29,16 +29,6 @@ textarea {
   background: #D5F1FF;
   resize: none;
 }
-  
-/*h2{ 
-  font-size: 40px;  
-  text-shadow: 2px 2px #222;
-  border-bottom: 2px solid #FFF;
-  text-align: center;
-  margin: 0 0 5px 0;
- }*/
-
-}
 input{
  width: 98%;
  height: 40px;
@@ -55,43 +45,17 @@ input{
   background-color:#D5F1FF;
 }
 
-/*body{
-    font-family: 'Vollkorn', serif;
-    margin: 2% 5% 5%;    
-    background-color: black;
-}*/
-
-/*.demandante{  font-style: italic;}*/
-
 .important{ color:red;  font-weight:bold; }
 
 label{display:inline-block; width:90%;  }
 
-/*.seleccionar{ width:100px;  }*/
 
 .error{ width:auto; color:red;  font-size:small;  }
 
-/*#pie{ clear:both;}*/
-
-/*select{  width: 20%; background: #D5F1FF; border-radius:15px; border-left: 4px solid #1608FF;  height: 20px;}*/
 
 div { padding: 2px; }
 
-/*#formulario 
-{
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2),  
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
-  background: #9F81F7;
-  border: 1px solid silver;   
-  width: 95%; 
-  margin: 3px 3px 3px 3px;
-  padding: 25px;
-  border-radius: 50px;    
-}*/
+
 
  .text, select
 {
@@ -104,24 +68,11 @@ div { padding: 2px; }
   background-color : #D5F1FF;
   /*padding: 10px 6px 6px 22px;*/
   text-align: right;
-}*
-/*#nifcif, #nombre, #pswd, #pswd2{
-  width: 150px;
 }
-#telefono{
-  width: 90px;
-}
-#particularempresa {
-  width: 100px;
-}
-#direccion, #iban{
-  width: 320px;
-}*/
 
 
 
-input[type="submit"]
-{ 
+input[type="submit"]{ 
   background-color: #fff;
   color: #1608FF;
   border-bottom: 2px solid #04004C;
@@ -133,15 +84,6 @@ input[type="submit"]
   padding: 1%;
   font-size: 15px;
 }
-/*input[type=submit]{
- background-color:#FF9900;
- height:50px;
- 
- border:none;
- font-weight:400;
- letter-spacing:2px;
- color:#FFFFFF;
-}*/
 
 input[type="submit"]:focus, input[type="submit"]:hover
 { 
@@ -153,49 +95,10 @@ input[type="submit"]:focus, input[type="submit"]:hover
   color:#fff;
 }
 
-/*Placeholder*/
-/* all */
-/*::-webkit-input-placeholder { color:#5F04B4; }*/
-/* ::-moz-placeholder { color:#5F04B4; } firefox 19+ */
-/*:-ms-input-placeholder { color:#5F04B4; }  ie */
-/*input:-moz-placeholder { color:#5F04B4; }*/
-
-/*Requisitos password*/
-/*.erroneo
-{
-  background:url(../img/contacto/mal.png) no-repeat 0 50%;
-  padding-left:25px;
-  line-height:14px;
-  color:#ec3f41;
-}
-.valido 
-{
-  background:url(../img/contacto/bien.png) no-repeat 0 50%;
-  padding-left:25px;
-  line-height:14px;
-  color:#3a7d34;
-} 
-#pswd_info 
-{
-  position: center;
-  top:230px;
-  right:55px;
-  width:250px;
-  padding:15px;
-  background:#FFF;
-  font-size:.875em;
-  border-radius:5px;
-  box-shadow:0 1px 3px #ccc;
-  border:1px solid #ddd;
-  display: none;
-}*/
-
-fieldset 
-{
+fieldset {
   background-color: #D5F1FF;
 }
-fieldset:hover
-{
+fieldset:hover{
   background-color:#fff;
 }
 legend{
