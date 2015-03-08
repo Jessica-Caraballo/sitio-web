@@ -541,13 +541,37 @@ footer li{
     right: 20px;
     top: 26px;
   }
-
   #cssmenu ul li:hover > a {
     color: #D8E4FF;
   }
   #cssmenu ul li:hover{
     background: #002E45;
   }
+  *{
+    font-size: 10px;
+  }
+  .s1,.s2,.s3,.s4{
+    font-size:15px;
+  }
+  .s5,.s6,.s7,.s8,.s9{
+    font-size: 12px;
+  }
+  aside{
+    width: 90%;
+  }
+  .rg-thumbs img{
+    height: 5%;
+  }
+  .rg-view, video{
+    display:none;
+  }
+  #contacto{
+    width: 80%;
+  }
+  #principal{
+  margin-left: -100px;
+}
+
 }
 /*
  * VIDEO
