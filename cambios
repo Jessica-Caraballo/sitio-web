@@ -1,0 +1,21 @@
+<link href="http://fonts.googleapis.com/css?family=Indie+Flower|Over+the+Rainbow|Vollkorn|Pacifico|Dancing+Script" rel=stylesheet type=text/css>
+
+<link href="http://fonts.googleapis.com/css?family=Indie+Flower%7COver+the+Rainbow%7CVollkorn%7CPacifico%7CDancing+Script" rel=stylesheet type=text/css>
+
+borrar meta name description
+
+<ul> <a href="https://es-es.facebook.com/anian.reformas/" target=_blank> <li id=facebook></li> </a> <a id=finRS href="https://plus.google.com/111429807000133944764/about/" target=_blank> <li id=googlemas></li> </a> </ul>
+
+
+<ul>
+  <li>
+  	<a href="https://es-es.facebook.com/anian.reformas/" target="_blank">
+  		<span id="facebook"></span>
+  	</a>
+  </li>
+  <li>
+	<a href="https://plus.google.com/111429807000133944764/about/" target="_blank">
+  		<span id="googlemas"></span>
+  	</a>
+  </li>
+</ul>
